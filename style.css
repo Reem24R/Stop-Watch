@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+body {
+    background-color:#edeaff;
+    font-family: 'Courier Prime', monospace;
+}
+h1
+{
+   color: #edeaff;
+   text-align: center;
+   padding-top: 20px;
+   font-size:50px
+   
+}
+.he
+{
+   text-align: center;
+   color: black;
+}
+.stopwatch
+{
+   width: 500px;
+   height: 300px;
+   border-radius: 10px;
+  position: absolute;
+   top:50%;
+   left:50%;
+   text-align: center;
+   transform:translate(-50%,-50%);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0.3)), url('travel_buenos-aires_4.jpg');
+}
+.buttoms
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+}
+#stop
+{
+   
+   color: rgb(253, 253, 253);
+   font-size: 20px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0);
+
+}
+#stop:hover{
+   background-color:#edeaff;
+   color: black;
+}
+#contiune
+{
+   color: white;
+   font-size: 20px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0);
+
+}
+#contiune:hover{
+   background-color:#edeaff;
+   color: black;
+}
+#reset
+{
+   color: white;
+   font-size: 20px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0);
+
+}
+#reset:hover{
+   background-color: #edeaff;
+   color: black;
+}
+.buttoms button
+{
+   margin: 10px;
+}
